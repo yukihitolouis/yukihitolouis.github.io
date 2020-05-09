@@ -1,0 +1,26 @@
+{
+  "name": "yukihitolouis.github.io",
+  "version": "1.0.0",
+  "description": "githubpage for tenriportal.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukihitolouis/yukihitolouis.github.io.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Yuki Takeuchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukihitolouis/yukihitolouis.github.io/issues"
+  },
+  "homepage": "https://github.com/yukihitolouis/yukihitolouis.github.io#readme",
+  "dependencies": {
+    "lunr": "^2.3.8",
+    "lunr-languages": "^1.4.0"
+  }
+}
