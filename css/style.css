@@ -61,7 +61,7 @@ footer {
 
 section.hero {
     color: #fff;
-    background-image: url('/images/bg.jpg');
+    background-image: url('/images/library.jpg');
     background-size: cover;
 }
 
@@ -123,7 +123,7 @@ p.sub-text {
 }
 
 .spacing {
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 .column {
@@ -187,34 +187,32 @@ hr {
     margin: 60px 0;
 }
 
-textarea,
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 18px;
-    display: block;
-    box-sizing: padding-box;
+.search-box {
+    padding: 15px;
+    background-color: #ccc;
+    font-size: 0;
 }
 
-textarea {
-    height: 250px;
-    line-height: 1.5em;
-    border: 1px solid #ccc;
-    resize: none;
+.search-box > * {
+    font-size: 1.2rem;
 }
 
-label {
-    margin: 30px 0 10px 0;
-    display: block;
+.search-box .search-input {
+    width: 75%;
+    height: 26px;
+    padding: 0 10px;
+    border: none;
 }
 
-input[type="submit"] {
-    margin: 30px 0 0 0;
-    font-size: 20px;
+.search-box .search-button {
+    width: 20%;
+    height: 26px;
+    border: none;
+    background-color: #d03c56;
+    color: #ffffff;
+    cursor: pointer;
 }
 
-.search {
-    width: 50%;
-    margin: 0 auto;
-    padding: 100px 0;
+.search-box .text {
+    margin-top: 12px;
 }
