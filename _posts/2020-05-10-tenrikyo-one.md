@@ -1,12 +1,16 @@
 ---
 layout: post
-category: Introduction
+category: Teachings
 author: Yuki Takeuchi
 ---
 
-About this website
+Website created by Masa Takeuchi to share teachings of Tenrikyo in his own words.
 
-Hi. I made this website to share the teachings I follow called Tenrikyo, in my own words.
-I have been making this website during my spare time, and I hope to add bits to it as I go along.
+Topics covered:
+- Our mind is who we are
+- How to use our mind
+- Blessings all around us
+- Oyasama's Path
+- Jiba, our home
 
 [Link](http://tenrikyo.one/)
