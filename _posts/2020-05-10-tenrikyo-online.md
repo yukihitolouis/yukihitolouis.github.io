@@ -2,6 +2,10 @@
 layout: post
 category: News
 author: Yuki Takeuchi
+tags:
+- news
+- articles
+- teachings
 ---
 Latest Tenrikyo news, articles on the teachings, and more!
 

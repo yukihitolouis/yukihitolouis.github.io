@@ -2,6 +2,10 @@
 layout: post
 category: Wiki
 author: Yuki Takeuchi
+tags:
+- teachings
+- news
+- information
 ---
 
 Website built to provide Tenrikyo followers or people interested in the faith of Tenrikyo with up-to-date news, articles, and information.  
