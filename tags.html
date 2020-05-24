@@ -1,0 +1,20 @@
+---
+layout: default
+title: Tags
+---
+<div class="container">
+  <h2 class="spacing">Entries</h2>
+
+  <div class="blog-posts">
+    {% for tag in site.tags %}
+    <div class="blog-post">
+      <h3>{{ tag[0] }}</h3>
+      <ul>
+        {% for post in tag[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>
