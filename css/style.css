@@ -144,9 +144,20 @@ p.sub-text {
 }
 
 .blog-post {
+    display: block;
     width: 750px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 6px 6px 8px -4px rgba(0, 0, 0, 0.15);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.blog-post:hover {
+    opacity: 0.6;
 }
 
 .blog-post .date {

@@ -7,16 +7,16 @@ title: Entries
 
   <div class="blog-posts">
     {% for post in site.posts %}
-    <div class="blog-post spacing">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="summary">
-        {{ post.category }}
-					<span class="date">
-						{{ post.date | date: '%B %d, %Y' }}
-					</span>
-      </p>
-      {{ post.excerpt | truncate: 100 }}
-    </div>
+      <a href="{{ post.url }}" class="blog-post">
+        <h3>{{ post.title }}</h3>
+        <span class="date">
+          {{ post.date | date: '%B %d, %Y' }}
+        </span>
+        <p class="summary">
+          Category: {{ post.category }}
+        </p>
+        <p>{{ post.excerpt | truncate: 100 }}</p>
+      </a>
     {% endfor %}
   </div>
 </div>
