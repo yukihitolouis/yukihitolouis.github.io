@@ -6,10 +6,9 @@ layout: default
 
   <div class="blog-post spacing">
     <p class="summary">Category: {{ page.category }}<span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
-    <p>Tags:</p>
-    <ul>
+    <ul class="tag-list">
       {% for tags in page.tags %}
-      <li>{{ tags }}</li>
+      <li><span class="tag-element">{{ tags }}</span></li>
       {% endfor %}
     </ul>
     {{ content }}

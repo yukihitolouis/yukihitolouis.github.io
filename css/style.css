@@ -216,3 +216,21 @@ hr {
 .search-box .text {
     margin-top: 12px;
 }
+
+ul.tag-list {
+    padding: 0;
+}
+
+ul.tag-list li {
+    display: inline-block;
+}
+
+.tag-list .tag-element {
+    border-radius: 5px;
+    background-color: #708284;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.0rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
