@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b43546d4-ebac-4365-8fb4-799c5a9a4591" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entries.html" afterPath="$PROJECT_DIR$/entries.html" />
     </list>
     <ignored path="yukihitolouis.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -480,7 +478,13 @@
       <option name="project" value="LOCAL" />
       <updated>1591547694415</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Limit entry style to entries">
+      <created>1591548913321</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591548913321</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -557,7 +561,8 @@
     <MESSAGE value="Add styling to tags" />
     <MESSAGE value="Add placeholder text to searchbar" />
     <MESSAGE value="Change entries page style to make each block into a link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change entries page style to make each block into a link" />
+    <MESSAGE value="Limit entry style to entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Limit entry style to entries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
