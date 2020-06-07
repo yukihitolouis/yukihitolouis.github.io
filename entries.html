@@ -5,9 +5,9 @@ title: Entries
 <div class="container">
   <h2 class="spacing">Entries</h2>
 
-  <div class="blog-posts">
+  <div class="entries">
     {% for post in site.posts %}
-      <a href="{{ post.url }}" class="blog-post">
+      <a href="{{ post.url }}" class="entry">
         <h3>{{ post.title }}</h3>
         <span class="date">
           {{ post.date | date: '%B %d, %Y' }}
